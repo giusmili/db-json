@@ -1,0 +1,29 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Lionel Messi",
+      "team": "Inter Miami"
+    },
+    { "id": 2, "name": "Cristiano Ronaldo", "team": "Al-Nassr" },
+    { "id": 3, "name": "Kylian Mbappé", "team": "Paris Saint-Germain" },
+    { "id": 4, "name": "Neymar Jr", "team": "Al-Hilal" }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "J.K. Rowling",
+      "books": ["Harry Potter", "Fantastic Beasts"]
+    },
+    {
+      "id": 2,
+      "name": "George R.R. Martin",
+      "books": ["A Song of Ice and Fire", "Fire & Blood"]
+    },
+    {
+      "id": 3,
+      "name": "J.R.R. Tolkien",
+      "books": ["The Hobbit", "The Lord of the Rings"]
+    }
+  ]
+}

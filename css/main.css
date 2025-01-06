@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/*
++++++++++++++++++
+|               |
+|   Reset css   |
+|               |
++++++++++++++++++
+*/
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+/*
++++++++++++++++++
+|               |
+|   Theme css   |
+|               |
++++++++++++++++++
+*/
+body {
+    display: grid;
+    grid-template-rows:  auto 1fr auto;
+    font: 1.6rem "Roboto Slab", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100svh;
+}
+
+header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1{
+    font-size: 5rem;
+    text-shadow: .2rem .2rem 0 #222,
+    -.2rem -.2rem 0 #222,
+    -.2rem .2rem 0 #222,
+    .2rem -.2rem 0 #222
+}
+
+main {
+    padding: 2rem;
+}
+
+.player-list {
+    list-style: none;
+    padding: 0;
+}
+
+.player-list li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+article, .picture{
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+.picture img{
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+    vertical-align: middle;
+    height: 100%;
+    filter: drop-shadow(0 0 0.80rem rgb(77, 138, 229));
+}
+.picture{
+    max-width: 30svw;
+}
+article h2{
+    font-weight: 200;
+}
+footer *{
+    text-align: center;
+}
