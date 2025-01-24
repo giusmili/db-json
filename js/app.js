@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-   
+
+   const authorList = document.querySelector("#authorList");
             // Fetch data for authors
+        
             fetch('http://localhost:3000/authors')
                 .then(response => {
                     if (!response.ok) {
