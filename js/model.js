@@ -1,3 +1,4 @@
+export const authorList = document.querySelector("#authorList");
 export const author = {
     readAuthor() {
      // Fetch data for authors

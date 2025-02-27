@@ -1,7 +1,7 @@
-import {author} from './model.js'
+import {author, authorList} from './model.js'
+authorList;
 document.addEventListener("DOMContentLoaded", () => {
-  const authorList = document.querySelector("#authorList");
  
-    /* call function object */
+ /* call function object */
   author.readAuthor()
 });
